@@ -95,5 +95,78 @@ opacity: 0.7;
 .pesquisa input[type=submit]:hover{
     opacity: 0.7;
 }
+.a99{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: black;
+}
+.myslides{display: none;}
+
+.slideshow-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: auto;
+}
+.numbertext{
+    color: #3e7f8d;
+    font-size: 18px;
+   padding: 10px 10px;
+   position: absolute;
+   top: 0;
+}
+.text{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 200px;
+    text-align: center;
+
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background_color 0.6s ease;
+
+}
+.active{
+    background-color: gray;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade{
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+}
