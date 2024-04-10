@@ -179,13 +179,33 @@ h1 {
 .rodape{
     height: 200px;
     width: auto;
+    display: flex;
     background-color: #1e7387;
+    justify-content: left;
+    color: whitesmoke;
 }
 
 .receita-imagem{
     border-radius: 50%;
 }
-
+.rodape-container{
+    float: left;
+    margin-left: 10%;
+    font-size: medium;
+}
+.rodape text{
+    margin-top: 250px;
+}
+.rodape a{
+    align-items: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+.map h1,p{
+    color: black;
+    display: flex;
+    align-items: center;
+}
 
 
 

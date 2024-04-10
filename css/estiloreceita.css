@@ -1,0 +1,45 @@
+.preparo {
+    color: #1e7381;
+    background-color: aliceblue;
+    padding: 30px;
+    font-size: 22PX;
+    font-style: italic;
+}
+
+.preparo:hover {
+    opacity: 0.7;
+}
+
+.receita {
+    font-size: 22px;
+    padding: 30px;
+    background-color: aliceblue;
+    color: #1e7381;
+    font-style: italic;
+
+}
+
+text {
+    color: #1e7381;
+    padding: 5px;
+}
+
+h3,
+h4 {
+    color: #1e7381;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    accent-color: #1e7381;
+
+}
+.imagem_receita{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+}

@@ -11,11 +11,12 @@
     font-style: italic;
     color: black;
     font-size: 18px;
-    width: 300px;
+    width: auto;
     text-align: justify;
-    background-color: #3e7f8d;
+    background-color: white;
     border-radius: 5%;
     padding: 30px;
+
 }
 
 
