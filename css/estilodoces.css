@@ -8,17 +8,18 @@
     margin-bottom: 80px;
 }
 .receitabox{
-    font-style: italic;
     color: black;
-    font-size: 18px;
     width: auto;
     text-align: justify;
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 5%;
     padding: 30px;
 
 }
-
+.receitabox h3{
+    font-style: italic;
+    font-size: 18px;
+}
 
 .lista-imagem{
     border-radius: 30px;
