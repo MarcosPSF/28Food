@@ -102,10 +102,16 @@ body {
 .a99 {
     display: flex;
     justify-content: center;
+
+}
+.a99 h1{
+    background-color: #1e7387;
+    color: whitesmoke;
 }
 
 h1 {
-    color: black;
+    background-color: #1e7387;
+    color: whitesmoke;
 }
 
 .myslides {
@@ -162,8 +168,10 @@ h1 {
 .texto-receitas{
     font-family: Curely,sans-serif;
     font-size: 40px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
+    padding: 3px;
+    
 }
 
 .container-receitas {
@@ -172,9 +180,8 @@ h1 {
     align-items: center;
     font-size: 25px;
     color: black;
-    font-family: Curely,sans-serif;
-    text-align: center;
-    margin-bottom: 80px;
+    font-family: Curely,sans-serif; 
+   
 }
 .rodape{
     display: flex;
@@ -207,7 +214,8 @@ h1 {
     align-items: center;
 }
 .texto-sobre{
-width: 1400px;
+
+background-color: aliceblue;
 
 }
 .texto-sobre h1{
@@ -221,7 +229,7 @@ width: 1400px;
 .texto-sobre text{
     font-size: 25px;
     color: #1e7387;
-    background-color: aliceblue;
+    
     font-style: italic;
 }
 
